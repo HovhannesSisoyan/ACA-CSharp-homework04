@@ -52,7 +52,7 @@ namespace homework4
         }
         public void DeleteNote(string name)
         {
-           Object temp = new Object();
+           Object temp = null;
            this.list.ForEach(note => 
                 {
                     if (name == note.name)
